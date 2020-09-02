@@ -1,0 +1,39 @@
+{
+  "name": "mern-practice-backend",
+  "version": "1.0.0",
+  "description": "A small practie project",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon -w server server/server.js",
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/romhanyi-agi/mern-practice-app.git"
+  },
+  "keywords": [
+    "MongoDB",
+    "Express",
+    "React",
+    "NodeJS"
+  ],
+  "author": "Agnes Romhanyi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/romhanyi-agi/mern-practice-connexion/issues"
+  },
+  "homepage": "https://github.com/romhanyi-agi/mern-practice-connexion#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^6.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.0",
+    "nodemon": "^1.19.4"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^2.22.0"
+  }
+}
